@@ -85,4 +85,25 @@ wtc-java-prep/
 
 Put your `.java` solution files next to the exercises or in a `src/` folder. Commit after each exercise.
 
+
+## Running tests
+
+```bash
+./run_tests.sh                          # all tests
+./run_tests.sh TemperatureConverterTest
+./run_tests.sh NumberAnalyserTest
+./run_tests.sh StringDetectiveTest
+./run_tests.sh BankAccountTest
+./run_tests.sh StudentTest
+./run_tests.sh AnimalTest
+./run_tests.sh EmployeeTest
+./run_tests.sh ShapeTest
+./run_tests.sh VehicleTest
+./run_tests.sh InterfaceTest
+./run_tests.sh ComputerTest
+./run_tests.sh RobotTest
+```
+
+Windows: replace `./run_tests.sh` with `run_tests.bat`
+
 ---
