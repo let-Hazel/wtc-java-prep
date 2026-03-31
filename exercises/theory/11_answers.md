@@ -109,3 +109,4 @@ Compiles and runs. Output: "Woof". The override happens because the method signa
 **Q6 (Open/Closed):** Violation: a method with a long `if/else` or `switch` that checks object types and does different things -- adding a new type means editing this method. Adherence: polymorphism through an abstract base or interface -- adding a new type means adding a new class, never editing existing ones.
 
 **Q9 (Notification):** Abstract class `Notification` or interface `Notifiable` with a `send()` method. Each type (`EmailNotification`, `SMSNotification`) is its own class. A `NotificationService` works with `Notification[]` or `List<Notifiable>` without knowing specific types. Adding a new type = new class, nothing else changes.
+
